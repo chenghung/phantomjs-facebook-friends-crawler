@@ -36,10 +36,6 @@ page.open('https://www.facebook.com/login.php', function (status) {
   }
 });
 
-// function crawlFriendList(userid) {
-//   console.log('crawlFriendList', userid);
-// }
-
 function crawlFriendList(userid) {
   console.log('crawlFriendList', userid);
   const url = 'https://m.facebook.com/' + userid + '/friends';
